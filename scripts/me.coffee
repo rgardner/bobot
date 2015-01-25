@@ -12,3 +12,6 @@ module.exports = (robot) ->
 
   robot.hear /new fb event/i, (msg) ->
     msg.send "https://www.facebook.com/events/upcoming"
+
+  robot.hear /courant/i, (msg) ->
+    msg.send "http://cims.nyu.edu/webapps/classrooms"
